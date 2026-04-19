@@ -62,6 +62,9 @@ details summary::-webkit-details-marker {
     bottom: 45px;
     z-index: 99;
 }
+.chap {
+    margin-top: 35px;
+}
 
 
 /*** Spinner ***/
