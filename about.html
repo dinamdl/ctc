@@ -60,8 +60,17 @@
         <div class="collapse navbar-collapse" id="navbarCollapse">
             <div class="navbar-nav ms-auto p-4 p-lg-0">
                 <a href="index.html" class="nav-item nav-link active">Գլխավոր</a>
-                <a href="about.html" class="nav-item nav-link">Մեր մասին</a>
-                <!-- <a href="about.html" class="nav-item nav-link">Լիցենզիա</a> -->
+
+
+                <div class="nav-item dropdown">
+                    <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Մեր Մասին</a>
+                    <div class="dropdown-menu fade-down m-0">
+                        <a href="about.html" class="dropdown-item">Մեր մասին</a>
+                        <a href="team.html" class="dropdown-item">Մեր Թիմը</a>
+                    </div>
+                </div>
+
+
                 <div class="nav-item dropdown">
                     <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Բուժման ոլորտ</a>
                     <div class="dropdown-menu fade-down m-0">
@@ -72,25 +81,18 @@
                         <a href="404.html" class="dropdown-item">New info </a> -->
                     </div>
                 </div>
-                <div class="nav-item dropdown">
-                    <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pages</a>
-                    <div class="dropdown-menu fade-down m-0">
-                        <a href="team.html" class="dropdown-item">Մեր Թիմը</a>
-                        <a href="faq's.html" class="dropdown-item">FAQ's</a>
-                        <!-- <a href="testimonial.html" class="dropdown-item">Կարծիք</a> -->
 
-                    </div>
-                </div>
 
                 <a href="contact.html" class="nav-item nav-link">Կապ</a>
 
-                <div class="lang">
-                    <ul class="d-flex  gap-2">
-                        <li><a href="about.html" class="">հայ</a></li>
-                        <li><a href="about_eng.html" class="">eng</a></li>
-                        <li><a href="index_ru.html" class="">ру</a></li>
-                    </ul>
+                <div class="nav-item dropdown">
+                    <a href="about.html" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">հայ</a>
+                    <div class="dropdown-menu fade-down m-0">
+                        <a href="about_eng.html" class="dropdown-item">eng</a>
+                        <a href="index_ru.html" class="dropdown-item">ру</a>
+                    </div>
                 </div>
+
             </div>
 
             <a href="conditionstreat.html" class="btn btn-primary py-4 px-lg-4 d-none d-lg-block">CTC
