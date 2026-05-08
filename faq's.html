@@ -50,9 +50,10 @@
 
 
     <!-- Navbar Start -->
-    <nav class="navbar navbar-expand-lg bg-white navbar-light shadow sticky-top p-0">
+   
+       <nav class="navbar navbar-expand-lg bg-white navbar-light shadow sticky-top p-0">
         <a href="index.html" class="navbar-brand d-flex align-items-center px-4 px-lg-5">
-            <h2 class="m-0 text-primary"><i class="fa fa-book me-3"></i>Cell Therapy Center</h2>
+            <h2 class="m-0 text-primary"><i class="fas fa-dna"></i>Cell Therapy Center</h2>
         </a>
         <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
             <span class="navbar-toggler-icon"></span>
@@ -60,41 +61,49 @@
         <div class="collapse navbar-collapse" id="navbarCollapse">
             <div class="navbar-nav ms-auto p-4 p-lg-0">
                 <a href="index.html" class="nav-item nav-link active">Գլխավոր</a>
-                <a href="about.html" class="nav-item nav-link">Մեր մասին</a>
+
+                <div class="nav-item dropdown">
+                    <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Մեր Մասին</a>
+                    <div class="dropdown-menu fade-down m-0">
+                        <a href="about.html" class="dropdown-item">Մեր մասին</a>
+                        <a href="team.html" class="dropdown-item">Մեր Թիմը</a>
+
+                    </div>
+                </div>
+
+
+
                 <!-- <a href="about.html" class="nav-item nav-link">Լիցենզիա</a> -->
+
                 <div class="nav-item dropdown">
                     <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Բուժման ոլորտ</a>
                     <div class="dropdown-menu fade-down m-0">
                         <a href="osteoarthritis.html" class="dropdown-item">Օստեոարթրիտներ և հոդային խնդիրներ</a>
-                        <a href="conditionstreat.html" class="dropdown-item">Էսթետիկ բժշկություն (CTC aesthetics)</a>
+                        <a href="conditionstreat.html" class="dropdown-item">Էսթետիկ բժշկություն</a>
+                        <!-- <a href="ginekolog_html" class="dropdown-item">Գինեկոլոգիա</a> -->
                         <!-- <a href="404.html" class="dropdown-item">New info </a>
-                        <a href="404.html" class="dropdown-item">New info </a>
                         <a href="404.html" class="dropdown-item">New info </a> -->
                     </div>
                 </div>
+
+
+                <a href="faq's.html" class="nav-item nav-link">FAQ's</a>
+                <a href="contact.html" class="nav-item nav-link">Կապ</a>
+
                 <div class="nav-item dropdown">
-                    <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pages</a>
+                    <a href="index.html" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">հայ</a>
                     <div class="dropdown-menu fade-down m-0">
-                        <a href="team.html" class="dropdown-item">Մեր Թիմը</a>
-                        <a href="faq's.html" class="dropdown-item">FAQ's</a>
-                        <!-- <a href="testimonial.html" class="dropdown-item">Կարծիք</a> -->
+                        <a href="faq's_eng.html" class="dropdown-item">eng</a>
+                        <a href="index_ru.html" class="dropdown-item">ру</a>
                     </div>
                 </div>
-                <a href="contact.html" class="nav-item nav-link">Կապ</a>
-                <div class="lang">
-                    <ul class="d-flex  gap-2">
-                        <li><a href="index.html" class="">հայ</a></li>
-                        <li><a href="faq's_eng.html" class="">eng</a></li>
-                        <li><a href="index_ru.html" class="">ру</a></li>
-                    </ul>
-                </div>
+
             </div>
-            <a href="contact.html" class="btn btn-primary py-4 px-lg-5 d-none d-lg-block">CTC<i
+
+            <a href="contact.html" class="btn btn-primary py-4 px-lg-4 d-none d-lg-block">CTC<i
                     class="fa fa-arrow-right ms-3"></i></a>
         </div>
     </nav>
-    <!-- Navbar End -->
-
 
     <!-- Header Start -->
     <div class="container-fluid bg-primary py-5 mb-5 page-header">
